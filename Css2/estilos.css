@@ -1,0 +1,73 @@
+@import "https://fonts.googleapis.com/css2?family=Anton&family=Roboto&display=swap";
+
+* {
+     margin:0px;
+}
+
+ul {
+    border:1px solid black;
+    list-style: none;
+    padding: 0px;
+    background-color: black;
+
+}
+ul li{ 
+    
+    display: inline-block;
+}
+
+ul li a { 
+    font-family: 'Anton', sans-serif;
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px;
+    color: white;
+}
+
+ul li a:hover {
+    background-color: white;
+    color: black;
+}
+
+h1 {
+    font-family: 'Anton', sans-serif;
+    text-align: center;
+    font-size: 40px;
+    padding: 30px;
+    transition: all 0.5s;
+}
+h1:hover{
+    letter-spacing:4px ;
+    text-shadow: 10px 10px 10px red;
+
+}
+header img {
+    width: 100%;
+}
+section  {
+    padding: 20px;
+}
+section p {
+    text-align: justify;
+    line-height: 1,5;
+}
+section:nth-child(odd) {
+    background-color: lightgray;
+}
+section:nth-child(even) {
+    background-color: white;
+}
+
+footer {
+    background-color: black;
+    padding: 30px;
+}
+
+footer p {
+    color: white;
+    text-align: center;
+
+}
+p { 
+    font-family: 'Roboto', sans-serif;
+}
